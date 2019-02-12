@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WacApp"
+             x:Class="WacApp.FarmSearchPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Please choose a farm for review:" HorizontalOptions="Center" VerticalOptions="Center" />
+
+        <Picker x:Name="uiFarmPicker" Title="Select Farm ID" BackgroundColor="White" />
+
+    </StackLayout>
+
+</ContentPage>
